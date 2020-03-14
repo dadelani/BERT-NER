@@ -8,9 +8,9 @@
     --do_eval=True   \
     --do_predict=True \
     --data_dir=ner_data/uncased_nodiacritics_ner_data   \
-    --vocab_file=bert/no_diacritics/vocab.txt  \
-    --bert_config_file=bert/no_diacritics/bert_config.json \
-    --init_checkpoint=bert/no_diacritics/model.ckpt-50000   \
+    --vocab_file=bert_models/no_diacritics/vocab.txt  \
+    --bert_config_file=bert_models/no_diacritics/bert_config.json \
+    --init_checkpoint=bert_models/no_diacritics/model.ckpt-50000   \
     --max_seq_length=128   \
     --train_batch_size=32   \
     --learning_rate=2e-5   \
